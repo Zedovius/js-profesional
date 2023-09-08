@@ -1,0 +1,33 @@
+{
+  "name": "platzi-media-player",
+  "version": "1.0.0",
+  "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
+  "license": "MIT",
+  "author": "Richard B. Kaufman López <richardbkaufman@gmail.com>",
+  "keywords": [
+    "platzi"
+  ],
+  "scripts": {
+    "start": "parcel index.html exercises/**/*.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.6.2"
+  },
+  "browserslist": {
+    "modern": [
+      "last 1 edge version",
+      "last 1 firefox version"
+    ]
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zedovius/javascript-profesional.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zedovius/javascript-profesional/issues"
+  },
+  "homepage": "https://github.com/Zedovius/javascript-profesional#readme",
+  "dependencies": {}
+}
